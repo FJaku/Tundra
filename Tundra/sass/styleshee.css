@@ -1,0 +1,362 @@
+body {
+  background-color: #C9C9C9;
+  font-family: 'Varela', sans-serif; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+#logo {
+  position: absolute;
+  left: 12px;
+  z-index: 1;
+  width: 18%;
+  cursor: pointer; }
+
+.header {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  font-size: 1.5vw;
+  background-color: #9C9A9A;
+  width: 100%; }
+
+#menumain {
+  top: 33vw;
+  box-shadow: 0px 5px 20px #9C9A9A; }
+
+.produktheader {
+  margin-top: 37vw;
+  left: 0px;
+  position: absolute;
+  font-size: 1vw;
+  background-color: #9C9A9A;
+  width: 100%;
+  box-shadow: 0px 5px 20px #9C9A9A; }
+
+.menu {
+  display: inline;
+  margin: 0px;
+  padding: 1.5vw;
+  z-index: 2;
+  color: white; }
+
+.menutext {
+  display: inline; }
+
+#ul {
+  left: 0px;
+  padding-left: 1vw;
+  list-style-type: none;
+  z-index: 2; }
+
+.produktheader .menu:hover {
+  background: none;
+  color: white; }
+
+.menu:hover {
+  color: white;
+  background-color: #0057a3;
+  cursor: pointer; }
+
+#termo {
+  top: 5px;
+  right: 15px;
+  position: absolute;
+  width: 20%;
+  z-index: 2; }
+
+.banner {
+  left: -40px;
+  width: 100vw;
+  position: absolute;
+  overflow: auto;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: -1; }
+
+.banner li {
+  list-style: none; }
+
+.banner ul li {
+  float: left; }
+
+.banner img {
+  width: 102vw; }
+
+.dots {
+  position: relative;
+  padding-left: auto;
+  padding-right: auto;
+  bottom: 30px;
+  text-align: center; }
+
+.dots li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 4px;
+  text-indent: -999em;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  opacity: .4;
+  -webkit-transition: background .5s, opacity .5s;
+  -moz-transition: background .5s, opacity .5s;
+  transition: background .5s, opacity .5s; }
+
+.dots li.active {
+  background: #0057a3;
+  opacity: 0.7; }
+
+#imageright {
+  width: 30%;
+  top: 40vw;
+  right: 1vw;
+  position: absolute;
+  box-shadow: 0px 5px 20px #9C9A9A; }
+
+#imageright img {
+  padding: 0px;
+  width: 100%; }
+
+#imagemid {
+  position: relative;
+  width: 30%;
+  top: 39.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 5px 20px #9C9A9A; }
+
+#imagemid img {
+  width: 100%; }
+
+#imageleft {
+  width: 30%;
+  top: 40vw;
+  left: 1vw;
+  position: absolute;
+  box-shadow: 0px 5px 20px #9C9A9A; }
+
+#imageleft img {
+  width: 100%; }
+
+.text1 {
+  opacity: 0.9;
+  top: 3vw;
+  padding: 3vw;
+  z-index: 1;
+  position: absolute;
+  text-align: center;
+  font-size: 1.6vw;
+  color: white;
+  background-color: #0057a3;
+  cursor: default; }
+
+.menubutton {
+  border-style: solid;
+  border-color: #F5F5F5;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  opacity: 0.7; }
+
+.menubutton:hover {
+  border-color: white;
+  color: white;
+  padding: 6px;
+  opacity: 1; }
+
+.produkt {
+  margin-left: 2.5vw;
+  overflow: auto;
+  width: 45%;
+  float: left;
+  display: inline-block;
+  font-family: Montserrat, sans-serif;
+  background-color: #F5F5F5;
+  border-style: solid;
+  border-color: #0057a3;
+  border-width: 2px; }
+
+.produkt img {
+  width: 12vw;
+  display: inline-block;
+  float: left;
+  border-right-style: solid;
+  border-right-color: #0057a3;
+  border-right-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #0057a3;
+  border-bottom-width: 2px; }
+
+.produkt p {
+  padding: 10px;
+  display: inline-block;
+  float: right;
+  width: 25vw;
+  font-size: 1.2vw;
+  color: #C9C9C9; }
+
+.firstrow {
+  margin-top: 41vw; }
+
+.secondrow {
+  margin-top: 2vw; }
+
+.nazovpece {
+  color: #0057a3;
+  font-size: 1.3vw; }
+
+.kolekcia {
+  position: relative;
+  width: 30%;
+  overflow: auto;
+  margin-left: 2vw;
+  float: left;
+  display: inline-block;
+  background-color: #F5F5F5;
+  border-style: solid;
+  border-color: #0057a3;
+  border-width: 2px; }
+
+.kolekciaimg {
+  width: 100%; }
+
+.productbutton {
+  opacity: 0.9;
+  padding: 2.3vw;
+  z-index: 1;
+  position: absolute;
+  text-align: center;
+  font-size: 1.6vw;
+  color: #E0E0E0;
+  background-color: #0057a3;
+  cursor: pointer; }
+
+.productbutton:hover {
+  color: white; }
+
+.nunna {
+  font-size: 1.2vw;
+  color: #9C9A9A;
+  background-color: #F5F5F5;
+  border-style: solid;
+  border-color: #0057a3;
+  border-width: 2px;
+  padding: 1vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  display: inline-block;
+  overflow: auto; }
+
+.nunna img {
+  padding: 1vw;
+  float: right;
+  display: inline-block;
+  width: 50%; }
+
+.margin-left {
+  margin-left: 6vw; }
+
+#termomedia {
+  width: 70%;
+  display: inline; }
+
+.teplo {
+  margin-top: 9vw;
+  font-size: 1.2vw;
+  color: #9C9A9A;
+  background-color: #F5F5F5;
+  display: inline-block;
+  width: 90%;
+  float: left;
+  position: relative; }
+
+.teploimg {
+  color: #C9C9C9;
+  background-color: #F5F5F5;
+  border-style: solid;
+  border-color: #0057a3;
+  border-width: 2px;
+  padding: 0.5vw;
+  display: inline-block;
+  overflow: auto;
+  width: 33%;
+  margin-left: 1vw; }
+
+.teploimg img {
+  height: 20vw;
+  margin-right: auto;
+  margin-left: auto;
+  margin: 1vw;
+  border-style: solid;
+  border-color: #0057a3;
+  border-width: 2px;
+  border-radius: 5px; }
+
+.orange {
+  color: #0057a3; }
+
+.slidertext {
+  z-index: 2;
+  color: white;
+  font-size: 5vw;
+  position: absolute;
+  top: 1vw;
+  padding-left: 2vw; }
+
+#autor {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  color: #F5F5F5;
+  padding: 2px;
+  font-size: 1.25vw;
+  cursor: pointer;
+  z-index: 100; }
+
+#autorinfo {
+  position: fixed;
+  bottom: 1vw;
+  right: 0px;
+  color: #F5F5F5;
+  padding: 2px;
+  font-size: 1vw;
+  cursor: pointer;
+  display: none;
+  z-index: 100; }
+
+#bbqlowtxt {
+  position: absolute;
+  display: none;
+  z-index: 100;
+  padding: 0.5vw; }
+
+#bbqlowimg {
+  visibility: visible;
+  opacity: 1.0;
+  z-index: -1; }
+
+.backbutton {
+  font-size: 2vw;
+  margin-left: 1vw;
+  margin-top: 5vw;
+  display: inline-block; }
+
+.backbutton:hover {
+  color: #0078E0;
+  cursor: pointer; }
+
+#bbqhightxt {
+  position: absolute;
+  display: none;
+  z-index: 100;
+  padding: 0.5vw; }
+
+#bbqhighimg {
+  visibility: visible;
+  opacity: 1.0;
+  z-index: -1; }
+
+/*# sourceMappingURL=styleshee.css.map */
